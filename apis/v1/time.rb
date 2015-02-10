@@ -1,16 +1,15 @@
 class Time
   def getall
-    time = self
-    { year: time.year,
-      month: time.month,
-      day: time.day,
-      wday: time.wday,
-      yday: time.yday,
-      hour: time.hour,
-      min: time.min,
-      sec: time.sec,
-      usec: time.usec,
-      zone: time.zone }
+    { year: self.year,
+      month: self.month,
+      day: self.day,
+      wday: self.wday,
+      yday: self.yday,
+      hour: self.hour,
+      min: self.min,
+      sec: self.sec,
+      usec: self.usec,
+      zone: self.zone }
   end
 end
 
